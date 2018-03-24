@@ -8,12 +8,11 @@
   
 
   .site-header {
-    background-color: rgba(255, 179, 0, 0.75);
+    background-color: rgba(255, 179, 0, 0.89);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
-   /* backdrop-filter: saturate(180%) blur(20px); */
   }
   .site-header a {
-    color: #fff;
+    color: #00838f;
     transition: ease-in-out color .15s;
   }
   .site-header a:hover {
@@ -23,16 +22,22 @@
   
 .name-div{
     background-image: url('../images/trees.jpg');
-    /* height: 364px; */
-    /* width: 755px; */
     background-size: cover;
     color:white;
     font-weight: 100;
 }
 
-.name-div::after{
-    background: rgba(0, 0, 0, 0.5);
+.avatar{
+    height: 20rem;
+    border-radius: 50%;
+    border: 5px rgba(0, 188, 212, 0.62) solid;
 }
+/**
+TODO: Figure out how to get overlay
+*/
+/* .name-div:after{
+    background-color: rgba(0, 0, 0, 0.5);
+} */
   
   
   /*
