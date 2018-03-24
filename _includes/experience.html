@@ -1,0 +1,30 @@
+<div class="experience position-relative overflow-hidden p-3 p-md-4 ">
+    <div class="col-md-10 offset-md-1 p-lg-4 mx-auto my-3">
+        <h2 class="font-weight-light">EXPERIENCE</h2>
+        <hr class="thick"> {% for experience in site.data.experience %}
+        <div class="row">
+            <div class="col-lg-4  text-xs-left ">
+                <p class="lead text-light">{{experience.dates}}</p>
+            </div>
+            <div class="col-lg-8 ">
+                <h3 class="font-weight-light"> {{experience.company}} &mdash;
+                    <span class="lead">{{experience.location}}</span>
+                </h3>
+                <p class="lead">
+                    <em>{{experience.title}}</em>
+                </p>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-lg-8 offset-lg-4">
+                <p class="lead">{{experience.responsibilities}}</p>
+
+            </div>
+        </div>
+        <hr class="thick"> {% endfor %}
+
+
+    </div>
+</div>

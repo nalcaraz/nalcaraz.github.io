@@ -1,0 +1,17 @@
+[
+  {
+    "company": "Patient Care Analytics",
+    "dates": "Sept 2014 - Present",
+    "location": "Thousand Palms, CA",
+    "responsibilities":
+      "Maintain existing MVC web applications using technologies such as C#, jQuery, and Bootstrap. Implementation of a single pagegit stat application using AngularJS and Angular Material JS",
+    "title": "Web Developer"
+  },
+  {
+    "company": "EPIC Management, LP",
+    "dates": "June 2013 - July 2014",
+    "location": "Redlands, CA",
+    "responsibilities": "",
+    "title": "IS Projects Consultant"
+  }
+]

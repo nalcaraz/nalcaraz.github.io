@@ -3,8 +3,11 @@
 }
 
 body {
-  background-image: url("../images/trees.jpg");
-  background-size: contain;
+  background: url("../images/trees.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /*
@@ -48,21 +51,19 @@ body {
   color: white;
 }
 
-.resume {
+.education {
   background-color: rgba(255, 255, 255, 0.9);
+}
+.experience {
+  background-color: rgba(117, 117, 117, 0.9);
+  color: white;
 }
 
 .avatar {
   height: 20rem;
   border-radius: 50%;
-  border: 5px rgba(0, 188, 212, 0.62) solid;
+  border: 5px rgba(255, 179, 0, 0.7) solid;
 }
-/**
-TODO: Figure out how to get overlay
-*/
-/* .name-div:after{
-    background-color: rgba(0, 0, 0, 0.5);
-} */
 
 /*
    * Extra utilities
@@ -77,6 +78,10 @@ TODO: Figure out how to get overlay
 
 .box-shadow {
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+hr.thick {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .flex-equal > * {
