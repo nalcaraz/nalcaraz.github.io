@@ -58,6 +58,14 @@ body {
   background-color: rgba(117, 117, 117, 0.85);
   color: white;
 }
+.skills {
+  background-color: rgba(0, 151, 167, 0.85);
+  color: white;
+}
+
+.skills .list-group-item {
+  background-color: transparent;
+}
 
 .avatar {
   height: 20rem;
