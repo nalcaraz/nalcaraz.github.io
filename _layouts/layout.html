@@ -14,23 +14,16 @@
     <link href="./assets/vendors/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
     <link href="./assets/styles/site.css" rel="stylesheet">
+
+
 </head>
 
 <body>
 
-    <nav class="site-header sticky-top py-1">
-        <div class="container d-flex flex-column flex-md-row justify-content-between">
-            <a class="py-2 d-inline-flex" href="#">
-                <img src="./assets/images/nallely_logo.png" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <span> allely Alcaraz</span>
-            </a>
-            <!-- <a class="py-2 d-none d-md-inline-block" href="#">Home</a> -->
 
-        </div>
-    </nav>
-
-    {% include nallely.html %}
+    {% include nav.html %} {% include nallely.html %}
     <!--ABOUT ME-->
     {% include about-me.html %}
     <!--EXPERIENCE-->
@@ -46,11 +39,11 @@
 
 
 
-    <footer class="container py-2">
+    <footer class="site-footer px-4 py-2">
         <div class="row">
             <div class="col-12 col-md">
                 <img src="./assets/images/nallely_logo.png" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <small class="d-block mb-3 text-light">&copy; 2017-2018</small>
+                <small class="d-block mb-3 text-light">&copy; 2018</small>
             </div>
 
         </div>
@@ -62,6 +55,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
 
     <script src="./assets/vendors/bootstrap/js/bootstrap.js"></script>
+
 
 </body>
 
