@@ -10,6 +10,20 @@ body {
   background-size: cover;
 }
 
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 179, 0, 0.89);
+  outline: 1px solid rgba(255, 179, 0, 0.89);
+}
+
 /*
    * Custom translucent site header
    */
@@ -18,13 +32,23 @@ body {
   background-color: rgba(255, 179, 0, 0.89);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
 }
+
+.site-header .home-link {
+  font-size: 24px;
+  font-family: "Sacramento", cursive;
+}
 .site-header a {
-  color: #00838f;
+  color: #00838f !important;
   transition: ease-in-out color 0.15s;
 }
 .site-header a:hover {
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
+}
+
+.site-footer {
+  background-color: rgba(255, 179, 0, 0.89);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
 }
 
 .name-div {
@@ -32,6 +56,7 @@ body {
   background-size: cover; */
   color: white;
   font-weight: 100;
+  font-family: "Sacramento", cursive;
 }
 
 .name-div .overlay {
