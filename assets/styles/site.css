@@ -47,15 +47,15 @@ body {
 }
 
 .about-me {
-  background: rgba(0, 151, 167, 0.9);
+  background: rgba(0, 151, 167, 0.85);
   color: white;
 }
 
 .education {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.85);
 }
 .experience {
-  background-color: rgba(117, 117, 117, 0.9);
+  background-color: rgba(117, 117, 117, 0.85);
   color: white;
 }
 
