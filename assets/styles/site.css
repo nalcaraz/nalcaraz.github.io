@@ -3,11 +3,11 @@
 }
 
 body {
-  background: url("../images/trees.JPG") no-repeat center center fixed;
+  /* background: url("../images/trees.JPG") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 
 body::-webkit-scrollbar {
@@ -20,8 +20,8 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 179, 0, 0.89);
-  outline: 1px solid rgba(255, 179, 0, 0.89);
+  background-color: rgba(0, 151, 167, 0.95);
+  outline: 1px solid rgba(0, 151, 167, 0.95);
 }
 
 /*
@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb {
    */
 
 .site-header {
-  background-color: rgba(255, 179, 0, 0.89);
+  background-color: rgba(255, 193, 7);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
 }
 
@@ -42,18 +42,23 @@ body::-webkit-scrollbar-thumb {
   transition: ease-in-out color 0.15s;
 }
 .site-header a:hover {
-  color: #fff !important;
+  /* color: rgba(117, 117, 117) !important; */
+  font-weight: 800;
   text-decoration: none;
 }
 
 .site-footer {
-  background-color: rgba(255, 179, 0, 0.89);
+  color: #00838f !important;
+  background-color: rgba(245, 245, 245, 0.9);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
 }
 
 .name-div {
   /* background-image: url("../images/trees.jpg");
   background-size: cover; */
+  background: url("../images/trees.JPG") no-repeat;
+  background-size: cover;
+
   color: white;
   font-weight: 100;
   font-family: "Sacramento", cursive;
