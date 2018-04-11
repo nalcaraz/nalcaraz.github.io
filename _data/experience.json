@@ -3,15 +3,21 @@
     "company": "Patient Care Analytics",
     "dates": "Sept 2014 - Present",
     "location": "Thousand Palms, CA",
-    "responsibilities":
-      "Maintain existing MVC web applications using technologies such as C#, jQuery, and Bootstrap. Implementation of a single page application using AngularJS and AngularJS Material.",
+    "responsibilities": [
+      "Structure and develop a responsive single page application using AngularJS and AngularJS Material for front end and RESTful API to access data. ",
+      "Provide support of existing MVC web applications by debugging, diagnosing and fixing issues. Make necessary changes and build new features based on business needs as well as enhance performance where needed. Technologies used include C#, jQuery, and Bootstrap on the front end, and SQL queries on the backend accessed via Ajax calls. "
+    ],
     "title": "Web Developer"
   },
   {
     "company": "EPIC Management, LP",
     "dates": "June 2013 - July 2014",
     "location": "Redlands, CA",
-    "responsibilities": "",
+    "responsibilities": [
+      "Tested, implemented, and optimized applications in Citrix 6.5 environment to prepare for upgrade. Maintained and optimized Citrix 6.5 after initial production release.",
+      "Development, staging, and deployment of Thin Clients to clinics. Actively provided support after deployment.",
+      "Migrated documents from a GroupWise email system onto network shared drives for easier and more secure access in preparation for changing to Outlook email system."
+    ],
     "title": "IS Projects Consultant"
   }
 ]

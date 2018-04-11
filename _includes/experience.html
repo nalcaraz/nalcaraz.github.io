@@ -19,8 +19,9 @@
         </div>
         <div class="row">
             <div class="col-lg-8 offset-lg-4">
-                <p class="lead">{{experience.responsibilities}}</p>
-
+                {% for responsibility in experience.responsibilities %}
+                <p class="lead">&#9702;{{responsibility}}</p>
+                {% endfor %}
             </div>
         </div>
         <hr class="thick"> {% endfor %}
