@@ -29,8 +29,8 @@ body::-webkit-scrollbar-thumb {
    */
 
 .site-header {
-  background-color: rgba(255, 193, 7);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  background-color: #ffc107;
+  /* -webkit-backdrop-filter: saturate(180%) blur(20px); */
 }
 
 .site-header .home-link {
