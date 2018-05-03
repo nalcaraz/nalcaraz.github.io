@@ -2,13 +2,6 @@
   max-width: 960px;
 }
 
-body {
-  /* background: url("../images/trees.JPG") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
-}
 
 body::-webkit-scrollbar {
   width: 1em;
@@ -42,7 +35,7 @@ body::-webkit-scrollbar-thumb {
   transition: ease-in-out color 0.15s;
 }
 .site-header a:hover {
-  /* color: rgba(117, 117, 117) !important; */
+  color: white;
   font-weight: 800;
   text-decoration: none;
 }
@@ -65,7 +58,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .name-div .overlay {
-  background: rgba(55, 71, 79, 0.8);
+  background: rgba(55, 71, 79, 0.6);
   height: 100%;
   width: 100%;
   /* opacity: 0; */
@@ -85,7 +78,7 @@ body::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.95);
 }
 .experience {
-  background-color: rgba(117, 117, 117, 0.95);
+  background-color: rgba(117, 117, 117, 0.85);
   color: white;
 }
 .skills {
