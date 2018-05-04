@@ -1,23 +1,36 @@
 [
   {
-    "name": "AngularJS"
+    "name": "AngularJS",
+    "iconClass": "fab fa-angular fa-3x"
   },
   {
-    "name": "C#"
+    "name": "C#",
+    "iconClass": "devicon-csharp-line fa-3x"
   },
   {
-    "name": "HTML"
+    "name": "HTML",
+    "iconClass" : "fab fa-html5 fa-3x"
   },
   {
-    "name": "Javascript"
+    "name": "Bootstrap",
+    "iconClass": "devicon-bootstrap-plain fa-3x"
   },
   {
-    "name": "CSS"
+    "name": "jQuery",
+    "iconClass":"devicon-jquery-plain fa-3x"
+  },
+  {
+    "name": "CSS",
+    "iconClass":"fab fa-css3 fa-3x"
   },
   {
     "name": "SQL"
   },
   {
-    "name": "Git"
+    "name": "Git",
+    "iconClass":"devicon-git-plain fa-3x"
+  },{
+    "name" : "Gulp",
+    "iconClass": "fab fa-gulp fa-3x"
   }
 ]
