@@ -10,13 +10,14 @@ layout: layout
             <div class="col-md-6 col-md-offset-3">
                 <form class="w-100" name="contact" action="" method="POST" netlify>
                     <div class="col-xs-12 py-2">
-                        <input class="form-control" type="email" name="email" placeholder="Your email">
+                        <input id="contact-email" class="form-control" type="email" name="email" placeholder="Your email">
                     </div>
                     <div class="col-xs-12 py-2">
-                        <textarea class="form-control" name="message" placeholder="Your message"></textarea>
+                        <textarea id="contact-message" class="form-control" name="message" placeholder="Your message"></textarea>
                     </div>
                     <div class="col-xs-12 py-2">
-                        <button class="btn btn-outline-success" type="submit">Send</button>
+                        <button id="contact-send" class="btn btn-outline-success" disabled
+                         type="submit">Send</button>
                     </div>
                 </form>
             </div>
