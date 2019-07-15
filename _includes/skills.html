@@ -4,7 +4,10 @@
         {% for skill in site.data.skills %}
 
         <ul class="list-group list-group-flush">
-            <li class="pt-1 pb-1 list-group-item">{{skill.name}}</li>
+            <li class="pt-1 pb-1 list-group-item">
+                {{skill.name}}
+                <i class="{{skill.iconClass}}"></i>
+            </li>
 
         </ul>
         {% endfor %}

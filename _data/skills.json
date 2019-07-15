@@ -1,23 +1,49 @@
 [
+  
   {
-    "name": "AngularJS"
+    "name": "JavaScript, ES5, ES6"
   },
   {
-    "name": "C#"
+    "name": "AngularJS",
+    "iconClass": "fab fa-angular fa-3x"
   },
   {
-    "name": "HTML"
+    "name": "C#",
+    "iconClass": "devicon-csharp-line fa-3x"
   },
   {
-    "name": "Javascript"
+    "name": "HTML",
+    "iconClass" : "fab fa-html5 fa-3x"
   },
   {
-    "name": "CSS"
+    "name": "Bootstrap",
+    "iconClass": "devicon-bootstrap-plain fa-3x"}
+,{
+    "name": "React.js"
+  },
+ 
+  {
+    "name": "jQuery",
+    "iconClass":"devicon-jquery-plain fa-3x"
+  },
+  {
+    "name": "CSS",
+    "iconClass":"fab fa-css3 fa-3x"
   },
   {
     "name": "SQL"
   },
   {
-    "name": "Git"
+
+    "name": "Git",
+    "iconClass":"devicon-git-plain fa-3x"
+  },{
+    "name" : "Gulp",
+    "iconClass": "fab fa-gulp fa-3x"
+  }, 
+   
+  {
+    "name": "NPM"
   }
+  
 ]
