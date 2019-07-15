@@ -1,4 +1,8 @@
 [
+  
+  {
+    "name": "JavaScript, ES5, ES6"
+  },
   {
     "name": "AngularJS",
     "iconClass": "fab fa-angular fa-3x"
@@ -13,8 +17,11 @@
   },
   {
     "name": "Bootstrap",
-    "iconClass": "devicon-bootstrap-plain fa-3x"
+    "iconClass": "devicon-bootstrap-plain fa-3x"}
+,{
+    "name": "React.js"
   },
+ 
   {
     "name": "jQuery",
     "iconClass":"devicon-jquery-plain fa-3x"
@@ -27,10 +34,16 @@
     "name": "SQL"
   },
   {
+
     "name": "Git",
     "iconClass":"devicon-git-plain fa-3x"
   },{
     "name" : "Gulp",
     "iconClass": "fab fa-gulp fa-3x"
+  }, 
+   
+  {
+    "name": "NPM"
   }
+  
 ]

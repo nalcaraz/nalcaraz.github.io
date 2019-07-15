@@ -3,12 +3,13 @@
         <h2 class="font-weight-light">SKILLS</h2>
         {% for skill in site.data.skills %}
 
-        <!-- <ul class="list-group list-group-flush">
-            <li class="pt-1 pb-1 list-group-item"> -->
+        <ul class="list-group list-group-flush">
+            <li class="pt-1 pb-1 list-group-item">
+                {{skill.name}}
                 <i class="{{skill.iconClass}}"></i>
-              <!-- </li>
+            </li>
 
-        </ul> -->
+        </ul>
         {% endfor %}
 
     </div>
