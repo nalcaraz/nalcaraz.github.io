@@ -1,15 +1,19 @@
 [
+  
+  {
+    "name": "JavaScript, ES5, ES6"
+  },
   {
     "name": "AngularJS"
+  },
+  {
+    "name": "React.js"
   },
   {
     "name": "C#"
   },
   {
     "name": "HTML"
-  },
-  {
-    "name": "Javascript"
   },
   {
     "name": "CSS"
@@ -19,5 +23,12 @@
   },
   {
     "name": "Git"
+  },  
+  {
+    "name": "Gulp"
+  },  
+  {
+    "name": "NPM"
   }
+  
 ]
