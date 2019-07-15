@@ -2,11 +2,14 @@
     <div class="col-md-10 offset-md-1 p-lg-4 mx-auto my-3">
         <h2 class="font-weight-light">SKILLS</h2>
         {% for skill in site.data.skills %}
-
+        <i class="skill-icon {{skill.iconClass}}" ></i>
+       
+        {% endfor %}
+        {% for skill in site.data.skills %}
         <ul class="list-group list-group-flush">
             <li class="pt-1 pb-1 list-group-item">
                 {{skill.name}}
-                <i class="{{skill.iconClass}}"></i>
+              
             </li>
 
         </ul>
